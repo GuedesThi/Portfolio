@@ -1,0 +1,78 @@
+.container {
+    margin-top: 3rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-bottom: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.titulo > h2 {
+    font-weight: 600;
+}
+
+.titulo > .mudar {
+    background: linear-gradient(130deg, rgba(69, 239, 253, 1) 0%, rgba(42, 201, 214, 1) 59%);
+    -webkit-background-clip: text; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    color: transparent;
+}
+
+.containerProjetos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.projetos {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.projeto {
+    width: 27.2rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.projeto > h3 {
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.projeto > p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    font-size: 0.9rem;
+}
+
+.lado {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.lado > a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background: linear-gradient(130deg, rgba(69, 239, 253, 1) 0%, rgba(42, 201, 214, 1) 59%);
+    -webkit-background-clip: text; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    color: transparent;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+
+.lado > a:hover {
+    font-size: 1.6rem;
+}

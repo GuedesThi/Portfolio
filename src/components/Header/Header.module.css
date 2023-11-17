@@ -1,0 +1,118 @@
+.container {
+    width: 75rem;
+    height: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .contorno {
+    border: 1px solid rgba(42, 201, 214, 1);
+    border-radius: 8px;
+    width: 11.5rem;
+    height: 3.3rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+    transition: transform 0.5s ease;
+}
+
+.container .contorno:hover {
+    transform: scale(1.1);
+    border: 2px solid rgba(42, 201, 214, 1);
+}
+
+.nome {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background: linear-gradient(130deg, rgba(69, 239, 253, 1) 0%, rgba(42, 201, 214, 1) 59%);
+    -webkit-background-clip: text; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    color: transparent; 
+}
+
+.nome:hover {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background: linear-gradient(130deg, rgb(48, 191, 204) 0%, rgba(42, 201, 214, 1) 59%);
+    -webkit-background-clip: text; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    color: transparent; 
+}
+
+
+.container .opcoes {
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.opcaoUm {
+    border: 1px solid rgba(42, 201, 214, 1);
+    border-radius: 8px;
+    width: 6.5rem;
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.opcaoDois {
+    border: 1px solid rgba(42, 201, 214, 1);
+    border-radius: 8px;
+    width: 7rem;
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.opcaoTres {
+    border: 1px solid rgba(42, 201, 214, 1);
+    border-radius: 8px;
+    width: 7rem;
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.opcaoUm:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.opcaoDois:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.opcaoTres:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.linkTopo {
+    background: linear-gradient(130deg, rgba(69, 239, 253, 1) 0%, rgba(42, 201, 214, 1) 59%);
+    -webkit-background-clip: text; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    color: transparent; 
+    font-weight: 600 ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+}
+
+.linkTopo:hover {
+    background: linear-gradient(130deg, rgb(48, 191, 204) 0%, rgba(42, 201, 214, 1) 59%);
+    -webkit-background-clip: text; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    color: transparent; 
+}

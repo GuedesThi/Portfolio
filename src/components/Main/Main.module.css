@@ -1,0 +1,96 @@
+.container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-----------------------------------------------------*/
+
+.nomeFrase {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.comeco {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.nome {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background: linear-gradient(130deg, rgba(69, 239, 253, 1) 0%, rgba(42, 201, 214, 1) 59%);
+    -webkit-background-clip: text; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    color: transparent; 
+    transition: 0.5s;
+}
+
+.nome:hover {
+    font-size: 2.2rem;
+}
+
+/*-----------------------------------------------------*/
+
+.descricao {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+
+/*-----------------------------------------------------*/
+
+.containerSkills {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+.containerSkills > h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.skylls {
+    display: flex;
+    gap: 5.5rem;
+}
+
+.espaco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 4rem;
+    margin-top: 1rem;
+}
+
+.espaco > span {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.mudar {
+    margin-top: 0.5rem;
+}
+
+.mudarDois {
+    margin-top: 0.7rem;
+}
+
+.mudarTres {
+    margin-top: 0.7rem;
+}
+
+.skyllsDois {
+    display: flex;
+    gap: 5.5rem;
+    margin-top: 2rem;
+}
