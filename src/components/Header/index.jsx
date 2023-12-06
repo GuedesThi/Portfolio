@@ -6,7 +6,7 @@ function Header(props) {
             <div className={styles.contorno}>
                 <h1 className={styles.nome}>Thiago Guedes</h1> 
             </div>
-            <div className={styles.opcoes} onClick={props.sessaoUm}>
+            {/* <div className={styles.opcoes} onClick={props.sessaoUm}>
                 <div className={styles.opcaoUm}>
                     <a className={styles.linkTopo}>Sobre Mim</a>
                 </div>
@@ -16,7 +16,7 @@ function Header(props) {
                 <div className={styles.opcaoTres} onClick={props.sessaoTres}>
                     <a className={styles.linkTopo}>Contatos</a>
                 </div> 
-            </div>
+            </div> */}
             
         </div>
     )

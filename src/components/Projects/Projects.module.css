@@ -34,6 +34,7 @@
     width: 100%;
     height: auto;
     justify-content: space-between;
+    margin-bottom: 2.5rem;
 }
 
 .projeto {
@@ -56,10 +57,62 @@
     font-size: 0.9rem;
 }
 
+.categoria {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.botao {
+    background-color: blueviolet;
+    width: 6rem;
+    height: 2.8rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.botao:hover {
+    width: 7rem;
+    height: 3.5rem;
+    background-color: rgb(163, 68, 252);
+}
+
+.botao > p {
+    font-weight: 600;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+.botaoMudar {
+    background-color: blueviolet;
+    width: auto;
+    height: 2.8rem;
+    padding: 0 0.9rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.botaoMudar:hover {
+    height: 3.5rem;
+    padding: 1rem;
+    background-color: rgb(163, 68, 252);
+}
+
+.botaoMudar > p {
+    font-weight: 600;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
 .lado {
     display: flex;
     align-items: center;
-    gap: 0.2rem;
+    gap: 1.5rem;
 }
 
 .lado > a {
@@ -75,4 +128,73 @@
 
 .lado > a:hover {
     font-size: 1.6rem;
+}
+
+/*----------------------------------------------------------------------*/
+
+@media (max-width: 769px) {
+    .container {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+        flex-direction: column;
+    }
+
+    .titulo > h2 {
+        font-size: 1.4rem;
+    }
+
+    .containerProjetos {
+        margin-top: 2rem;
+    }
+
+    .projetos { /* Dois projetos na mesma linha Lado a Lado*/
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 2rem; /* Distância do Projeto abaixo dos Dois*/
+        gap: 2rem;  /* Distância dos Dois na mesma linha*/
+    }
+
+    .projeto { /* Um dos Dois da mesma linha*/
+        width: 100%;
+        height: auto;
+    }
+
+    .projeto > p {
+        line-height: 1.4rem;
+    }
+
+    .categoria { /* Container dos Botões*/
+        gap: 0.7rem;
+    }
+
+    .botao {
+        width: 4.8rem;
+    }
+
+    .botao:hover {
+        width: 5.2rem;
+    }
+
+    .botao > p {
+        font-size: 0.8rem;
+    }
+
+    .botaoMudar {
+        padding: 0 0.5rem;
+    }
+
+    .botaoMudar > p {
+        font-size: 0.8rem;
+    }
+
+    .botaoMudar:hover {
+        height: auto;
+        padding: 1rem 0.9rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+
 }

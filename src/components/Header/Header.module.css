@@ -44,7 +44,7 @@
 }
 
 
-.container .opcoes {
+/* .container .opcoes {
     width: auto;
     display: flex;
     align-items: center;
@@ -73,9 +73,9 @@
     align-items: center;
     border-radius: 8px;
     transition: transform 0.3s ease;
-}
+} */
 
-.opcaoTres {
+/* .opcaoTres {
     border: 1px solid rgba(42, 201, 214, 1);
     border-radius: 8px;
     width: 7rem;
@@ -90,29 +90,57 @@
 .opcaoUm:hover {
     transform: scale(1.1);
     cursor: pointer;
-}
+} */
 
-.opcaoDois:hover {
+/* .opcaoDois:hover {
     transform: scale(1.1);
     cursor: pointer;
-}
+} */
 
-.opcaoTres:hover {
+/* .opcaoTres:hover {
     transform: scale(1.1);
     cursor: pointer;
-}
+} */
 
-.linkTopo {
+/* .linkTopo {
     background: linear-gradient(130deg, rgba(69, 239, 253, 1) 0%, rgba(42, 201, 214, 1) 59%);
-    -webkit-background-clip: text; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    -webkit-background-clip: text; 
     color: transparent; 
     font-weight: 600 ;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.9rem;
+} */
+
+/* .linkTopo:hover {
+    background: linear-gradient(130deg, rgb(48, 191, 204) 0%, rgba(42, 201, 214, 1) 59%);
+    -webkit-background-clip: text; 
+    color: transparent; 
+} */
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 769px) {
+    .container {
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 2em;
+        justify-content: flex-start;
+    }
+
+    .container .contorno {
+        width: 11rem;
+        padding: 0.5rem 0;
+        align-items: center;
+    }
+
+    .nome {
+        font-size: 1.3rem;
+    }
+
 }
 
-.linkTopo:hover {
-    background: linear-gradient(130deg, rgb(48, 191, 204) 0%, rgba(42, 201, 214, 1) 59%);
-    -webkit-background-clip: text; /* Para navegadores WebKit (Chrome, Safari, etc.) */
-    color: transparent; 
+@media (max-width: 320px) {
+
 }
+
