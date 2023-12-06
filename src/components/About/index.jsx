@@ -9,7 +9,7 @@ function About() {
                     <h2 className={styles.mudar}>Sobre Mim</h2>
                 </div>
                 
-                <img src="/assets/foto.jpg" />
+                <img src="public/assets/foto.jpg" />
             </div>
             <div className={styles.ladoDireito}>
                 <p>
