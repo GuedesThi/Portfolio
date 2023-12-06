@@ -103,7 +103,7 @@ function Projects() {
                         <MdOutlineEmail size={50} color='#b9ae0f' />
                         <h3>Find Your Adress</h3>
                         <p>
-                            Página única onde o usuário informa seu CEP e a API ViaCEP informa o
+                            SPA onde o usuário informa seu CEP e a API ViaCEP informa o
                             endereço e retorna na tela. Retornando respostas de erro em caso do mesmo
                         </p>
 
