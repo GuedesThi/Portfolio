@@ -23,10 +23,11 @@ function Projects() {
                 <div className={styles.projetos}>
                     <div className={styles.projeto}>
                         <MdLocalMovies size={50} color='#c56104' />
-                        <h3>MovieSeries</h3>
+                        <h3>Vision</h3>
                         <p>
-                            Aplicação onde o usuário cria cards sobre filmes ou séries. Ele informa
-                            sinopse, data, gênero, imagem, etc. Tudo feito com Django Framework
+                            Aplicação para o usuário assistir filmes e séries online. O foco do 
+                            projeto foi a parte Back-End, e não a parte de Front-End.
+                            Tudo desenvolvido com Django Framework
                         </p>
 
                         <div className={styles.categoria}>
