@@ -43,9 +43,9 @@ function Projects() {
                         </div>
 
                         <div className={styles.lado}>
-                            <a href='https://jogador-caro.vercel.app/' target="_blank">Link Projeto</a>
+                            <a href='#'>Em Desenvolvimento</a>
                             <a href='/'>|</a>
-                            <a href='https://jogador-caro.vercel.app/' target="_blank">Link GitHub</a>
+                            <a href='https://github.com/GuedesThi/Vision-Django' target="_blank">Link GitHub</a>
                         </div>
                     </div>
 
@@ -66,9 +66,7 @@ function Projects() {
                         </div>
 
                         <div className={styles.lado}>
-                            <a href='https://api-cep-mu.vercel.app/' target="_blank">Link Projeto</a>
-                            <a href='/'>|</a>
-                            <a href='https://jogador-caro.vercel.app/' target="_blank">Link GitHub</a>
+                            <a href='#'>Em Desenvolvimento</a>
                         </div>
                     </div>
                 </div>
@@ -209,9 +207,7 @@ function Projects() {
                         </div>
 
                         <div className={styles.lado}>
-                            <a href='https://jogador-caro.vercel.app/' target="_blank">Link Projeto</a>
-                            <a href='/'>|</a>
-                            <a href='https://jogador-caro.vercel.app/' target="_blank">Link GitHub</a>
+                            <a href='#'>Em Revisão</a>
                         </div>
                     </div>
 

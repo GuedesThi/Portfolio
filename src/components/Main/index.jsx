@@ -89,9 +89,9 @@ function Main() {
                             <div className={styles.elemento}>
                                 <DiMysql color='#247091' size={70}/><span className={styles.mudarM}>MySQL</span>
                             </div>
-                            <div className={styles.elemento}>
+                            {/* <div className={styles.elemento}>
                                <DiPhp color='#607BC0' size={70}/><span className={styles.mudarP}>PHP</span> 
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className={styles.espacoSeis}>
